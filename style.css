@@ -1,0 +1,123 @@
+h3{
+    color: red;
+    }
+.h4{
+    color: violet;
+}
+#h5{
+    color : yellow;
+}
+
+.ptag{
+    background-color: black;
+    color: red;
+    border: 1px solid blue;
+}
+.background{
+    background-color: red;
+    opacity: 0.5;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9fhR1z8GyG70I2kVxtMS1kPjj09IvKDCulglMWCwciq00ebDomXbAIFqHkLkIvrpwRNI&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    height: 540px;
+}
+.text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: larger;
+    text-align: right;    
+}
+
+.link{
+    text-decoration: none;
+    color: red;
+}
+
+
+.box{
+    background-color: blue;
+
+    border: 5px solid black;
+
+    padding: 10px 5px 20px;
+
+    margin: 10px;
+
+}
+
+.display-span{
+    background-color:cadetblue;
+    color: bisque;
+
+    border: 5px solid black;
+
+    padding: 10px 5px 20px;
+
+    margin: 10px;
+ 
+}
+
+.image{
+    position: absolute;
+    left:0px;
+    top:0x;
+    z-index: -1;
+    
+
+}
+.position {
+    position: relative;
+    background-color: forestgreen;
+    left: 30px;
+    border: 3px solid  whitesmoke;
+
+}
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color:cornflowerblue;
+    width: 300px;
+    border: 3px solid  red;
+
+}
+.relative{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border:5px solid #73ad27;
+
+
+
+}
+.absolute{
+    position: absolute;
+    top:80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    color: crimson;
+    border: 2px dotted orange;
+
+}
+.sticky{
+    position: sticky;
+    top: 5px;
+    padding: 5px;
+    height: 50px;
+    background-color: skyblue;
+
+
+}
+.box{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: mediumspringgreen;
+}
+.one{
+    
+}
